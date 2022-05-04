@@ -1,0 +1,5 @@
+consumindo api exemplo
+https://pokeapi.co/api/v2/pokemon/pikachu/
+
+ref
+https://the-api-collective.com/api/pokeapi-api/
