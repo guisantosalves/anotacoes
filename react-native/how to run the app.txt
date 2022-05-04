@@ -1,0 +1,38 @@
+https://reactnative.dev/docs/environment-setup -> doc oficial
+rodar o metro -> npx react-native start
+(tem que estar dentro do projeto desejado)
+
+rodar de fato o react-native no emulador
+rodar o comando -> npx react-native run-android
+
+TEM QUE SER NO POWERSHELL COM FUNÇÃO DE ADM
+
+--------------------------------------------------------------
+usa-se para navegação em react-native o react-navigation
+
+npm install @react-navigation/native
+
+npm install react-native-screens react-native-safe-area-context
+
+npm install @react-navigation/stack
+
+npm install @react-navigation/bottom-tabs
+
+npm install @react-navigation/drawer
+
+doc:
+https://reactnavigation.org/docs/getting-started/
+----------------------------------------------------------------
+
+//iniciar o projeto
+npx react-native init (nome do projeto)
+
+//iniciar o projeto
+npx react-native start
+
+//buildar ele no android
+npx react-native run-android
+
+doc:
+https://reactnative.dev/docs/environment-setup
+

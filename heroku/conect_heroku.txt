@@ -1,0 +1,16 @@
+mongodb://guizaodozap:paodequeijo123@cluster0-shard-00-00.wx08a.mongodb.net:27017,cluster0-shard-00-01.wx08a.mongodb.net:27017,cluster0-shard-00-02.wx08a.mongodb.net:27017/blog?ssl=true&replicaSet=atlas-10xsiq-shard-0&authSource=admin&retryWrites=true&w=majority
+
+
+conta do heroku:
+workguisantos@gmail.com
+Paodequeijo123@
+
+
+conta do mongodb atlas:
+workguisantos@gmail.com
+chocolate!123gui
+
+
+o que eu fiz:
+fiz o deploy mudando a senha e deu certo, usei a string gerada no próprio mongo atlas,
+nao esquecer de colocar no 2.x.x na versao do mongo

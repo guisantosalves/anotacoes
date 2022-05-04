@@ -1,0 +1,25 @@
+propriedades em react é somente leitura, nao da pra modificar uma propriedade em react
+
+react fragment: não pode mostrar 2 elementos sem estar envolvidos com nada.
+para retornar esses elementos deve se fazer o fragmen <React.Fragment> ou <></>
+
+existem dois meios de comunicação entre componentes o modo direto que é de pai para filho
+e indireta que é voltando de filho para o pai.
+
+justifyContent -> eixo vertical
+alignItems -> eixo horizontal
+
+no momento que eu chamo o flexDirection: 'row' eu mudo instântaneamente o eixo principal, fazendo com que o eixo principal fiquei como o horizontal, quando faz isso o alignItems também inverte.
+
+normal:
+justifyContent - > eixo vertical (principal)
+alignItems - > eixo horizontal (secundário)
+
+com flexDirection: 'row'
+
+justifyContent -> eixo horizontal (principal)
+alignItems - > eixo vertical (secundário)
+
+componentes funcionais são diferentes de componentes baseados em classes
+
+converter string para um número +(variável)
