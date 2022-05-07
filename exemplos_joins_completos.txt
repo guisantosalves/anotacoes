@@ -1,0 +1,35 @@
+
+-- joins --
+-- (plano cartesiano) --
+select v.cod_venda, v.nome_produto, v.id_funcionario, f.nome, f.cpf, f.RG 
+from venda as v, funcionario as f 
+where v.id_funcionario = f.id;
+
+-- inner join --
+select cod_venda, nome_produto, id_funcionario, nome, cpf, RG 
+from venda inner join funcionario on venda.id_funcionario = funcionario.id;
+
+-- Left outer Join incluindo da intersecção--
+select * from venda left outer join funcionario on venda.id_funcionario = funcionario.id;
+
+-- Left outer Join excluindo da intersecção--
+select * from venda left outer join funcionario on venda.id_funcionario = funcionario.id where funcionario.id is null;
+
+-- Right outer Join incluindo intersecção --
+select * from venda right outer join funcionario on venda.id_funcionario = funcionario.id;
+
+-- Right outer Join excluindo intesecção --
+select * from venda right outer join funcionario on venda.id_funcionario = funcionario.id where venda.id_funcionario is null;
+
+-- Full outer Join incluindo intersecção --
+select * from venda left outer join funcionario on venda.id_funcionario = funcionario.id 
+union 
+select * from venda right outer join funcionario on venda.id_funcionario = funcionario.id;
+
+-- Full outer Join excluindo intersecção --
+select * from venda left outer join funcionario on venda.id_funcionario = funcionario.id where funcionario.id is null
+union 
+select * from venda right outer join funcionario on venda.id_funcionario = funcionario.id where venda.id_funcionario is null;
+
+-- > right -> a fk é nula 
+-- > left o id da tabela sem a fk é nulo
